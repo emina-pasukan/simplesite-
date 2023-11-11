@@ -482,7 +482,7 @@ section {
 #about .about-container .background {
   min-height: 10px;
   background: url(https://github.com/emina-pasukan/simplesite-/blob/main/assets/img/home.jpg?raw=true) center top no-repeat; /* this sets the image and properties on the about page */
-  background-size: cover; /* this property ensures the background image covers the entire container */
+  background-size: contain; /* this property ensures the entire image is visible within the container */
   margin-bottom: 0px;
 }
 #about .about-container .content {
