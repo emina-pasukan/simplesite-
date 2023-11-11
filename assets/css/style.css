@@ -480,9 +480,9 @@ section {
   padding: 80px 0;
 }
 #about .about-container .background {
-  min-height: 10px;
+  min-height: 180px;
   background: url(https://github.com/emina-pasukan/simplesite-/blob/main/assets/img/home.jpg?raw=true) center top no-repeat; /* this sets the image and properties on the about page */
-  background-size: contain; /* this property ensures the entire image is visible within the container */
+  background-size: 100% 100%;; /* this property ensures the entire image is visible within the container */
   margin-bottom: 0px;
 }
 #about .about-container .content {
